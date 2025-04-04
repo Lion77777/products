@@ -52,6 +52,7 @@ export const ProductEdit = (props: ProductPros) => {
 
             axios.patch(`/products/${id}`, updatedProduct)
                 .then(function (response) {
+                    console.log(response);
                 })
                 .catch(function (error) {
                     console.log(error);
