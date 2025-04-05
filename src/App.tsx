@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from 'react'
 import './App.css'
-import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+import { Route, HashRouter as Router, Routes } from 'react-router-dom'
 import { ProductList } from './components/ProductList'
 import { ProductCreate } from './components/ProductCreate'
 import axios from 'axios'
